@@ -22,7 +22,9 @@ if ($conn->connect_error) {
 $sql = "INSERT INTO lidworden (name, email, Woonplaats, Leeftijd) VALUES ('$name', '$email', '$Woonplaats', '$Leeftijd' )";
 
 if ($conn->query($sql) === TRUE) {
-    echo "Data inserted successfully!";
+    // Data inserted successfully, redirect back to the same page
+    header("Location: {$_SERVER['HTTP_REFERER']}");
+    exit();
 } else {
     echo "Error inserting data: " . $conn->error;
 }
@@ -30,3 +32,4 @@ if ($conn->query($sql) === TRUE) {
 // Close the database connection
 $conn->close();
 ?>
+
