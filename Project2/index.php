@@ -9,14 +9,27 @@
 </head>
 <body>
     <header>
-    <?php include 'header.php'; ?>
+        <?php include 'header.php'; ?>
     </header>
-    
 
-
-    
-    
-    
-    
+    <article>
+        <img src="images/annekuik.jpg" id="imgB" alt="Anne Kuik" class="image-container">
+        <h2>Headline of the News Article</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Vestibulum ac elit non ex sodales eleifend. Sed ullamcorper
+            rhoncus mauris, eu tincidunt turpis. Phasellus vitae orci
+            vel mi semper pulvinar et nec orci. Fusce eu mollis augue.
+            Aenean eu libero et lorem tristique feugiat. Nulla id
+            finibus sapien, vitae placerat quam. Curabitur nec tempor
+            orci, ut lacinia lacus. Nulla facilisi. Donec eget odio
+            fermentum, fermentum turpis vel, viverra tortor. Vestibulum
+            ante ipsum primis in faucibus orci luctus et ultrices posuere
+            cubilia Curae; Pellentesque habitant morbi tristique senectus
+            et netus et malesuada fames ac turpis egestas. Nam eu purus
+            vitae ligula eleifend placerat. Mauris sagittis consectetur
+            fringilla.
+        </p>
+    </article>
 </body>
 </html>
