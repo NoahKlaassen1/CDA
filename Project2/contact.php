@@ -21,9 +21,7 @@
 
         <button type="submit">Verzenden</button>
     </form>
-    <footer>
-        <?php include 'footer.php'; ?> 
-    </footer>
+
     
 </body>
 </html>
