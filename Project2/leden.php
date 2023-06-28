@@ -29,10 +29,53 @@
        <div class="card-image card-4"></div>
        <h2>Lucille Werner</h2>
        </div>
+       <div class="card">
+       <div class="card-image card-5"></div>
+       <h2>Lucille Werner</h2>
+       </div>
+       <div class="card">
+       <div class="card-image card-6"></div>
+       <h2>Lucille Werner</h2>
+       </div>
+       <div class="card">
+       <div class="card-image card-7"></div>
+       <h2>Lucille Werner</h2>
+       </div>
+       <div class="card">
+       <div class="card-image card-8"></div>
+       <h2>Lucille Werner</h2>
+       </div>
+       <div class="card">
+       <div class="card-image card-9"></div>
+       <h2>Lucille Werner</h2>
+       </div>
+       <div class="card">
+       <div class="card-image card-10"></div>
+       <h2>Lucille Werner</h2>
+       </div>
+       <div class="card">
+       <div class="card-image card-11"></div>
+       <h2>Lucille Werner</h2>
+       </div>
+       <div class="card">
+       <div class="card-image card-12"></div>
+       <h2>Lucille Werner</h2>
+       </div>
+       <div class="card">
+       <div class="card-image card-13"></div>
+       <h2>Lucille Werner</h2>
+       </div>
+       <div class="card">
+       <div class="card-image card-14"></div>
+       <h2>Lucille Werner</h2>
+       </div>
     </section>
     
   
-
+    <footer>
+        <?php include 'footer.php'; ?> 
+    </footer>
+    
     
     
    

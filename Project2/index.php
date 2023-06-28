@@ -12,10 +12,10 @@
     <?php include 'header.php'; ?>
     </header>
     
-    <p>github test</p>
-
-    <p>test</p>
-    
+   
+    <footer>
+        <?php include 'footer.php'; ?> 
+    </footer>
     
     
 </body>
