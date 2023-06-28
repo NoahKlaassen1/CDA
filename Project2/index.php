@@ -12,10 +12,7 @@
     <?php include 'header.php'; ?>
     </header>
     
-    <p>github test</p>
 
-    <p>test</p>
-    
     
     
 </body>
