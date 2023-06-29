@@ -1,12 +1,13 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 .card-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+}
+
+.card-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .card {
@@ -16,72 +17,77 @@
     height: 300px;
     margin: 10px;
     border-radius: 10px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card-image {
     background-color: aqua;
     height: 200px;
     margin-bottom: 15px;
-    background-size:cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     border-radius: 10px 10px 0 0;
 }
 
 
 .card-1 {
-    background-image: url('images/pieterheerma.jpg');
+    background-image: url(images/pieterheerma.jpg);
 }
 
 .card-2 {
-    background-image: url('images/annekuik.jpg');
+    background-image: url(images/annekuik.jpg);
 }
 
 .card-3 {
-    background-image: url('images/ingevandijk.jpg');
+    background-image: url(images/ingevandijk.jpg);
 }
 
 .card-4 {
-    background-image: url('images/lucillewerner.jpg');
+    background-image: url(images/lucillewerner.jpg);
 }
 
 .card-5 {
-    background-image: url('images/HildeMulder.jpg');
+    background-image: url(images/HildeMulder.jpg);
 }
 
 .card-6 {
-    background-image: url('images/BartVanDenBrink.jpg');
+    background-image: url(images/BartVanDenBrink.jpg);
 }
 
 .card-7 {
-    background-image: url('images/DerkBoswijk.jpg');
+    background-image: url(images/DerkBoswijk.jpg);
 }
 
 .card-8 {
-    background-image: url('images/ElineVedder.jpg');
+    background-image: url(images/ElineVedder.jpg);
 }
 
 .card-9 {
-    background-image: url('images/EvertjanSlootweg.jpg');
+    background-image: url(images/EvertjanSlootweg.jpg);
 }
 
 .card-10 {
-    background-image: url('images/HarmenKrul.jpg');
+    background-image: url(images/HarmenKrul.jpg);
 }
 
 .card-11 {
-    background-image: url('images/HenriBontenbal.jpg');
+    background-image: url(images/HenriBontenbal.jpg);
 }
 
 .card-12 {
-    background-image: url('images/JobaVanDenBerg.jpg');
+    background-image: url(images/JobaVanDenBerg.jpg);
 }
 
 .card-13 {
-    background-image: url('images/MustafaAmhaouch.jpg');
+    background-image: url(images/MustafaAmhaouch.jpg);
 }
 
 .card-14 {
-    background-image: url('images/RenePeters.jpg');
+    background-image: url(images/RenePeters.jpg);
 }
+
 
 
