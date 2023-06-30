@@ -14,7 +14,7 @@
     <div class="grid-container">
 
 
-    <article>
+    <article href="header.php">
 <div class="card">
         <div class="imgs">
         <img src="images/annekuik.jpg" id="imgB" alt="Anne Kuik" class="image-container">
@@ -38,7 +38,7 @@
     </article>
 
 
-    <article>
+    <article href="header.php">
 <div class="card">
     <div class="imgs">
         <img src="images/Hockey.jpg" id="imgB" alt="Anne Kuik" class="image-container">
@@ -63,7 +63,7 @@
 
 
 
-    <article>
+    <article href="header.php">
 <div class="card">
         <div class="imgs">
         <img src="images/OudeVrouw.jpg" id="imgB" alt="Anne Kuik" class="image-container">
@@ -86,14 +86,13 @@
         </p>
     </article>
 
-
-    <footer>
-
-            
-
-    </footer>
-
 </div>
 </div>
+
+<footer>
+
+    <h3>&copy; 2023 Your Website. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="contact.php#">Terms of Service</a></h3>
+
+</footer>
 </body>
 </html>
