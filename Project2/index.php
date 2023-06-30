@@ -86,6 +86,11 @@
         </p>
     </article>
 
+    <a class="meerbutton" href="nieuws.php">
+    Klik hier om meer te weergeven
+</a>
+
+
 </div>
 </div>
 
