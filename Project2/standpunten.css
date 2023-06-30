@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: rgb(27, 27, 27);
+}
+
+h1 {
+    color: #05da10;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background: #05da10;
+    width: 270px;
+    height: 320px;
+    margin-bottom: 10px;
+}
+
+.card-image {
+    background-color: aqua;
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.card h2 {
+    color: white;
+    text-align: center;
+    
+}
+
+.card-1 {
+    background-image: url(images/abortus.jpg);
+}
+
+.card-2 {
+    background-image: url(images/defensie.jpg);
+}
+
+.card-3 {
+    background-image: url(images/economie.jpg);
+}
+
+.card-4 {
+    background-image: url(images/klimaat.jpg);
+}
+
+.card-5 {
+    background-image: url(images/drugs.jpg);
+}
+
+.card-6 {
+    background-image: url(images/landbouw.jpg);
+}
+
+.card-7 {
+    background-image: url(images/ouderen.jpg);
+}
+
+.card-8 {
+    background-image: url(images/pensioen.jpg);
+}
