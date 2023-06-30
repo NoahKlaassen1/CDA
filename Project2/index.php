@@ -11,6 +11,34 @@
     <header>
         <?php include 'header.php'; ?>
     </header>
+
+
+    <div class="grid-standpunten">
+    <div class="standpunt">
+        <h2>Christelijke waarden</h2>
+        <p>Het CDA put inspiratie uit christelijke ethiek en streeft ernaar christelijke waarden te bevorderen in de politiek en de samenleving.</p>
+    </div>
+    <div class="standpunt">
+        <h2>Sociale samenhang</h2>
+        <p>De partij benadrukt het belang van sociale samenhang en streeft naar solidariteit en samenwerking tussen verschillende groepen in de samenleving.</p>
+    </div>
+    <div class="standpunt">
+        <h2>Economie en werkgelegenheid</h2>
+        <p>Het CDA ondersteunt een markteconomie met een sterke nadruk op maatschappelijke verantwoordelijkheid. Ze pleiten voor beleid dat economische groei, werkgelegenheid en ondersteuning voor kleine en middelgrote ondernemingen bevordert.</p>
+    </div>
+
+    
+
+    
+    <a href="#standpunten.php" class="standpuntbutton">Meer standpunten weergeven</a>
+
+
+</div>
+
+
+
+
+
     <div class="grid-container">
 
 

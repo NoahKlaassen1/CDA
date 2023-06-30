@@ -43,7 +43,8 @@ footer {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    height: 150px;
+    height: 125px;
+    border: solid 2px greenyellow;
 }
 
 footer a {
