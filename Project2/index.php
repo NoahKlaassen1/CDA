@@ -30,7 +30,7 @@
     
 
     
-    <a href="#standpunten.php" class="standpuntbutton">Meer standpunten weergeven</a>
+    <a href="standpunten.php" class="standpuntbutton">Meer standpunten weergeven</a>
 
 
 </div>
