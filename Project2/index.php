@@ -41,9 +41,9 @@
 
     <div class="grid-container">
 
-
-    <article href="header.php">
-<div class="card">
+<a href="nieuws.php">
+    <article>    
+        <div class="card">
         <div class="imgs">
         <img src="images/annekuik.jpg" id="imgB" alt="Anne Kuik" class="image-container">
         </div>
@@ -65,9 +65,11 @@
         </p>
     </article>
 
+    </a>
 
-    <article href="header.php">
-<div class="card">
+<a href="nieuws.php">
+    <article>
+    <div class="card">
     <div class="imgs">
         <img src="images/Hockey.jpg" id="imgB" alt="Anne Kuik" class="image-container">
     </div>
@@ -88,11 +90,12 @@
             fringilla.
         </p>
     </article>
+    </a>
 
 
-
-    <article href="header.php">
-<div class="card">
+<a href="nieuws.php">
+        <article>
+        <div class="card">
         <div class="imgs">
         <img src="images/OudeVrouw.jpg" id="imgB" alt="Anne Kuik" class="image-container">
         </div>
@@ -113,6 +116,7 @@
             fringilla.
         </p>
     </article>
+    </a>
 
     <a class="meerbutton" href="nieuws.php">
     Klik hier om meer te weergeven
