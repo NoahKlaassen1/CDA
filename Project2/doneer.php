@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-    <?php include 'header.php'; ?>
+    <?php include 'header.php'; ?>  
     </header>
     
     <div class="centered">
@@ -23,6 +23,11 @@
         <input type="number" name="Bedrag" placeholder="Bedrag" required class="input-field">
         <button type="submit" class="submit-button">Verzenden</button>
     </form>
+
+    <div class="alledonaties">
+          <h1>Alle donaties</h2>  
+
+    </div>
     
    
 </body>
