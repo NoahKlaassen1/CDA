@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-    <?php include 'header.php'; ?>  
+    <?php include 'header.php'; ?>
     </header>
     
     <div class="centered">
@@ -25,10 +25,17 @@
     </form>
 
     <div class="alledonaties">
-          <h1>Alle donaties</h2>  
+
+          <h1>Alle donaties</h1>  
 
     </div>
-    
-   
+
+
+
+  <footer>
+
+    <h3>&copy; 2023 Your Website. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="contact.php#">Terms of Service</a></h3>
+
+</footer>
 </body>
 </html>

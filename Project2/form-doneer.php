@@ -10,7 +10,7 @@ $Bedrag = $_POST['Bedrag'];
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "project2";
+$dbname = "doneer";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 

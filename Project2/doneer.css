@@ -7,15 +7,30 @@
 .green-heading {
     color: #05da10;
     font-size: 50px;
+    margin-right: 50%;
 }
 
 .form-container {
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
-}
+    height: 100%;
+  }
+  
+  .alledonaties {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-left:50%;
+    margin-top: -105%;
+  }
+  
 
 .input-field {
     margin-bottom: 30px;
@@ -33,3 +48,30 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
+footer {
+    width: 100%;
+    background-color: #05da10;
+    color: #fff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 125px;
+    border: solid 2px greenyellow;
+    margin-top: 276px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
