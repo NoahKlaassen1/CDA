@@ -10,7 +10,7 @@
     justify-content: center;
 }
 
-.card {
+.cards {
     background: #05da10;
     width: 270px;
     height: 350px;
@@ -24,7 +24,7 @@
     background-size: cover;
 }
 
-.card h2 {
+.cards h2 {
     color: white;
     text-align: center;
     justify-content: center;
@@ -93,5 +93,3 @@
 .card-14 {
     background-image: url(images/RenePeters.jpg);
 }
-
-
