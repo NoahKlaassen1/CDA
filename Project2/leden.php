@@ -11,7 +11,7 @@
     <header>
         <?php include 'header.php'; ?>
     </header>
-    <h1 class="title">Leden</h1>
+  
     <section class="container">
         <!-- Card 1 -->
         <div class="cards">

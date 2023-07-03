@@ -30,13 +30,7 @@
     justify-content: center;
 }
 
-.title {
-    text-align: center; /* Center the title */
-    margin-top: 15px; /* Add some top margin */
-    margin-bottom: 20px;
-    font-size: 50px;
-    color: #05da10;
-}
+
 
 .card-1 {
     background-image: url(images/pieterheerma.jpg);
