@@ -8,13 +8,7 @@ body {
     background-image: rgb(27, 27, 27);
 }
 
-h1 {
-    color: #05da10;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 50px;
-}
+
 
 .container {
     display: flex;
@@ -76,3 +70,4 @@ h1 {
 .card-8 {
     background-image: url(images/pensioen.jpg);
 }
+

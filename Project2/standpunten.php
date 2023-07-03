@@ -11,7 +11,7 @@
     <header>
         <?php include 'header.php'; ?>
     </header>
-    <h1>Standpunten</h1>
+   
     <section class="container">
         <a >
             <div class="card">
