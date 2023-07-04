@@ -11,31 +11,68 @@
     <header>
     <?php include 'header.php'; ?>
     </header>
-    
-    <div class="centered">
-        <h2 class="green-heading">Doneer</h2>
-    </div>
-    <form id="myForm" action="form-doneer.php" method="POST" class="form-container">
-        <input type="text" name="name" placeholder="Naam" required class="input-field">
-        <input type="email" name="email" placeholder="E-mail" required class="input-field">
-        <input type="text" name="Woonplaats" placeholder="Woonplaats" required class="input-field">
-        <input type="number" name="Leeftijd" placeholder="Leeftijd" required class="input-field">
-        <input type="number" name="Bedrag" placeholder="Bedrag" required class="input-field">
-        <button type="submit" class="submit-button">Verzenden</button>
-    </form>
 
-    <div class="alledonaties">
+    <div class="grid-container">
 
-          <h1>Alle donaties</h1>  
+<h2 class="green-heading">Doneer</h2>
 
-    </div>
+<form id="myForm" action="doneer.php" method="POST" class="form-container">
+<input type="text" name="naam" placeholder="Naam" required class="input-field">
+<input type="email" name="email" placeholder="E-mail" required class="input-field">
+<input type="number" name="nummer" placeholder="Nummer" required class="input-field">   
+<input type="number" name="bedrag" placeholder="Bedrag" required class="input-field">
+<button type="submit" class="submit-button">Verzenden</button>
+</form> 
 
+    <?php 
+    include 'connection.php';
 
+    function doneer()
+    {
+        global $conn;
 
-  <footer>
+        if (isset($_POST['naam']) && isset($_POST['email']) && isset($_POST['nummer']) && isset($_POST['bedrag'])) {
+            $naam = $_POST['naam'];
+            $email = $_POST['email'];
+            $nummer = $_POST['nummer'];
+            $bedrag = $_POST['bedrag'];
 
-    <h3>&copy; 2023 Your Website. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="contact.php#">Terms of Service</a></h3>
+            $stmt = $conn->prepare("INSERT INTO doneer (naam, email, nummer, bedrag) VALUES (?, ?, ?, ?)");
+            $stmt->bind_param("ssss", $naam, $email, $nummer, $bedrag);
+            $stmt->execute();
+            $stmt->close();
 
+            echo "<script>alert('Data has been successfully submitted to the database.');</script>";
+        }
+    }
+
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        doneer();
+    }
+
+    $sql = "SELECT * FROM `doneer` ORDER BY bedrag DESC LIMIT 5;";
+    $result = $conn->query($sql);
+
+    if ($result->num_rows > 0) {
+        $count = 0;
+        while ($row = $result->fetch_assoc()) {
+            $count++;
+            echo "<p class='wtext tcenter'><b>" . $count . ". " . $row["naam"] . "</b>" . " Heeft €" . $row["bedrag"] . " Gedoneerd" . "</p>";
+        }
+    } else {
+        echo "0 Resultaten";
+    }
+    ?>
+
+<div class="alledonaties">
+  <h2>Alle donaties</h2>  
+</div>
+
+</div>
+
+<footer>
+<h3>&copy; 2023 Your Website. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="contact.php#">Terms of Service</a></h3>
 </footer>
+
 </body>
 </html>

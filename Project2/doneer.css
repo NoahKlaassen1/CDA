@@ -1,34 +1,39 @@
-.centered {
-    text-align: center;
-    margin-bottom: -150px;
-    margin-top: 50px;
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }
+
 
 .green-heading {
     color: #05da10;
     font-size: 50px;
-    margin-right: 50%;
+    margin-left: 137%;
+    height: 5%;
+    width: 5%;
 }
 
 .form-container {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    height: 100%;
+    height: 50vh;
+    margin-top: 200px;
   }
   
   .alledonaties {
-    width: 50%;
+    width: 100%;
+    color: #05da10;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    margin-left:50%;
-    margin-top: -105%;
+    height: 23%;
   }
   
 
@@ -63,7 +68,6 @@ footer {
     align-items: center;
     height: 125px;
     border: solid 2px greenyellow;
-    margin-top: 276px;
   }
   
   footer a {
