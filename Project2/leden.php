@@ -84,5 +84,8 @@
             <h2>Rene Peters</h2>
         </div>
     </section>
+    <footer>
+    <h3>&copy; 2023 Your Website. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="contact.php#">Terms of Service</a></h3>
+    </footer>
 </body>
 </html>
