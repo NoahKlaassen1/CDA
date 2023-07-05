@@ -29,6 +29,9 @@
         <div class="card-image card-4"></div>
         <h2>Klimaat</h2>
     </div>
+    <a class="meerbutton" href="Standpunten.php">
+    Klik hier om meer te weergeven
+</a>
     </section>
     <h2 class="nieuws">Nieuws</h2>
     <section class="nieuws-container">
