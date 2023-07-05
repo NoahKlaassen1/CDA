@@ -17,13 +17,14 @@
     gap: 10px;
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 150px;
 }
 
 .card {
     background: #05da10;
     width: 270px;
     height: 320px;
-    margin-bottom: 100px;
+    
 }
 
 .card-image {
