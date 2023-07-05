@@ -1,0 +1,32 @@
+#footer {
+    height: 320px; /* Adjust the height as needed */
+    background-color: #05da10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#footer ul li {
+    margin-bottom: 20px;
+}
+
+#footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#footer ul li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}

@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards {
+    background: #05da10;
+    width: 270px;
+    height: 350px;
+    margin: 10px;
+}
+
+.card-image {
+    background-color: aqua;
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.cards h2 {
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.card-1 {
+    background-image: url(images/pieterheerma.jpg);
+}
+
+.card-2 {
+    background-image: url(images/annekuik.jpg);
+}
+
+.card-3 {
+    background-image: url(images/ingevandijk.jpg);
+}
+
+.card-4 {
+    background-image: url(images/lucillewerner.jpg);
+}
+
+.card-5 {
+    background-image: url(images/DerkBoswijk.jpg);
+}
+
+.card-6 {
+    background-image: url(images/ElineVedder.jpg);
+}
+
+.card-7 {
+    background-image: url(images/EvertjanSlootweg.jpg);
+}
+
+.card-8 {
+    background-image: url(images/HarmenKrul.jpg);
+}
+
+.card-9 {
+    background-image: url(images/HenriBontenbal.jpg);
+}
+
+.card-10 {
+    background-image: url(images/HildeMulder.jpg);
+}
+
+.card-11 {
+    background-image: url(images/JobaVanDenBerg.jpg);
+}
+
+.card-12 {
+    background-image: url(images/MustafaAmhaouch.jpg);
+}
+
+.card-13 {
+    background-image: url(images/BartVanDenBrink.jpg);
+}
+
+.card-14 {
+    background-image: url(images/RenePeters.jpg);
+}
