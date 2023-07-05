@@ -13,42 +13,36 @@
     </header>
   
     <section class="container">
-        <a >
+      
             <div class="card">
                 <div class="card-image card-1"></div>
-                <h2>Geestelijke gezondheidszorg</h2>
+                <h2>Gezondheidszorg</h2>
             </div>
-        </a>
-        <a  >
+        
             <div class="card">
                 <div class="card-image card-2"></div>
-                <h2>Dienstplicht voor alle jongeren</h2>
+                <h2>Dienstplicht</h2>
             </div>
-        </a>
-        <a  >
+        
             <div class="card">
                 <div class="card-image card-3"></div>
-                <h2>Infrastructuur en mobiliteit</h2>
+                <h2>Infrastructuur</h2>
             </div>
-        </a>
-        <a  >
+       
             <div class="card">
                 <div class="card-image card-4"></div>
-                <h2>Klimaatverandering, Natuur en Milieu</h2>
+                <h2>Klimaat</h2>
             </div>
-        </a>
-        <a  >
+       
             <div class="card">
                 <div class="card-image card-5"></div>
-                <h2>Criminaliteit en Veiligheid</h2>
+                <h2>Criminaliteit</h2>
             </div>
-        </a>
-        <a >
+        
             <div class="card">
                 <div class="card-image card-6"></div>
-                <h2>Gaswinning in Groningen</h2>
+                <h2>Gaswinning</h2>
             </div>
-        </a>
         
      
     </section>

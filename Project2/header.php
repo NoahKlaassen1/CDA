@@ -18,7 +18,7 @@
   <li><a href="leden.php">Leden</a></li>
   <li><a href="standpunten.php">Standpunten</a></li>
   <li><a href="contact.php">Contact</a></li>
-  <li><a href="lideworden.php">Word Lid</a></li>
+  <li><a href="lidworden.php">Word Lid</a></li>
   <li><a href="doneer.php">Doneer</a></li>
 </ul>
 

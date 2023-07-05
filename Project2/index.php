@@ -11,113 +11,43 @@
     <header>
         <?php include 'header.php'; ?>
     </header>
-
-
-    <div class="grid-standpunten">
-    <div class="standpunt">
-        <h2>Christelijke waarden</h2>
-        <p>Het CDA put inspiratie uit christelijke ethiek en streeft ernaar christelijke waarden te bevorderen in de politiek en de samenleving.</p>
-    </div>
-    <div class="standpunt">
-        <h2>Sociale samenhang</h2>
-        <p>De partij benadrukt het belang van sociale samenhang en streeft naar solidariteit en samenwerking tussen verschillende groepen in de samenleving.</p>
-    </div>
-    <div class="standpunt">
-        <h2>Economie en werkgelegenheid</h2>
-        <p>Het CDA ondersteunt een markteconomie met een sterke nadruk op maatschappelijke verantwoordelijkheid. Ze pleiten voor beleid dat economische groei, werkgelegenheid en ondersteuning voor kleine en middelgrote ondernemingen bevordert.</p>
-    </div>
-
-    
-
-    
-    <a href="standpunten.php" class="standpuntbutton">Meer standpunten weergeven</a>
-
-
-</div>
-
-
-
-
-
-    <div class="grid-container">
-
-<a href="nieuws.php">
-    <article>    
-        <div class="card">
-        <div class="imgs">
-        <img src="images/annekuik.jpg" id="imgB" alt="Anne Kuik" class="image-container">
-        </div>
-        <h2>Headline of the News Article</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Vestibulum ac elit non ex sodales eleifend. Sed ullamcorper
-            rhoncus mauris, eu tincidunt turpis. Phasellus vitae orci
-            vel mi semper pulvinar et nec orci. Fusce eu mollis augue.
-            Aenean eu libero et lorem tristique feugiat. Nulla id
-            finibus sapien, vitae placerat quam. Curabitur nec tempor
-            orci, ut lacinia lacus. Nulla facilisi. Donec eget odio
-            fermentum, fermentum turpis vel, viverra tortor. Vestibulum
-            ante ipsum primis in faucibus orci luctus et ultrices posuere
-            cubilia Curae; Pellentesque habitant morbi tristique senectus   
-            et netus et malesuada fames ac turpis egestas. Nam eu purus
-            vitae ligula eleifend placerat. Mauris sagittis consectetur
-            fringilla.
-        </p>
-    </article>
-
-    </a>
-
-<a href="nieuws.php">
-    <article>
+    <h2 class="standpunten">Standpunten</h2>
+    <section class="container">
     <div class="card">
-    <div class="imgs">
-        <img src="images/Hockey.jpg" id="imgB" alt="Anne Kuik" class="image-container">
+        <div class="card-image card-1"></div>
+        <h2>Gezondheidszorg</h2>
     </div>
-        <h2>Headline of the News Article</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Vestibulum ac elit non ex sodales eleifend. Sed ullamcorper
-            rhoncus mauris, eu tincidunt turpis. Phasellus vitae orci
-            vel mi semper pulvinar et nec orci. Fusce eu mollis augue.
-            Aenean eu libero et lorem tristique feugiat. Nulla id
-            finibus sapien, vitae placerat quam. Curabitur nec tempor
-            orci, ut lacinia lacus. Nulla facilisi. Donec eget odio
-            fermentum, fermentum turpis vel, viverra tortor. Vestibulum
-            ante ipsum primis in faucibus orci luctus et ultrices posuere
-            cubilia Curae; Pellentesque habitant morbi tristique senectus
-            et netus et malesuada fames ac turpis egestas. Nam eu purus
-            vitae ligula eleifend placerat. Mauris sagittis consectetur
-            fringilla.
-        </p>
-    </article>
-    </a>
-
-
-<a href="nieuws.php">
-        <article>
-        <div class="card">
-        <div class="imgs">
-        <img src="images/OudeVrouw.jpg" id="imgB" alt="Anne Kuik" class="image-container">
+    <div class="card">
+        <div class="card-image card-2"></div>
+        <h2>Dienstplicht</h2>
+    </div>
+    <div class="card">
+        <div class="card-image card-3"></div>
+        <h2>Infrastructuur</h2>
+    </div>
+    <div class="card">
+        <div class="card-image card-4"></div>
+        <h2>Klimaat</h2>
+    </div>
+    </section>
+    <h2 class="nieuws">Nieuws</h2>
+    <section class="nieuws-container">
+        <!-- Card 1 -->
+        <div class="cards">
+            <div class="card-foto card-1"></div>
+            <h2>Het CDA staat pal voor familiebedrijven</h2>
         </div>
-        <h2>Headline of the News Article</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Vestibulum ac elit non ex sodales eleifend. Sed ullamcorper
-            rhoncus mauris, eu tincidunt turpis. Phasellus vitae orci
-            vel mi semper pulvinar et nec orci. Fusce eu mollis augue.
-            Aenean eu libero et lorem tristique feugiat. Nulla id
-            finibus sapien, vitae placerat quam. Curabitur nec tempor
-            orci, ut lacinia lacus. Nulla facilisi. Donec eget odio
-            fermentum, fermentum turpis vel, viverra tortor. Vestibulum
-            ante ipsum primis in faucibus orci luctus et ultrices posuere
-            cubilia Curae; Pellentesque habitant morbi tristique senectus
-            et netus et malesuada fames ac turpis egestas. Nam eu purus
-            vitae ligula eleifend placerat. Mauris sagittis consectetur
-            fringilla.
-        </p>
-    </article>
-    </a>
-
+        <!-- Card 2 -->
+        <div class="cards">
+            <div class="card-foto card-2"></div>
+            <h2>Een woningwet voor heel Nederland</h2>
+        </div>
+        <!-- Card 3 -->
+        <div class="cards">
+            <div class="card-foto card-3"></div>
+            <h2>Democratische vrijheden hebben een bovengrens</h2>
+        </div>
+    </section>
     <a class="meerbutton" href="nieuws.php">
     Klik hier om meer te weergeven
 </a>

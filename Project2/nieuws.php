@@ -11,155 +11,38 @@
     <header>
         <?php include 'header.php'; ?>
     </header>
-    <div class="grid-container">
-
-
-    <article href="header.php">
-<div class="card">
-        <div class="imgs">
-        <img src="images/annekuik.jpg" id="imgB" alt="Anne Kuik" class="image-container">
+    <section class="nieuws-container">
+        <!-- Card 1 -->
+        <div class="cards">
+            <div class="card-foto card-1"></div>
+            <h2>Het CDA staat pal voor familiebedrijven</h2>
         </div>
-        <h2>Headline of the News Article</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Vestibulum ac elit non ex sodales eleifend. Sed ullamcorper
-            rhoncus mauris, eu tincidunt turpis. Phasellus vitae orci
-            vel mi semper pulvinar et nec orci. Fusce eu mollis augue.
-            Aenean eu libero et lorem tristique feugiat. Nulla id
-            finibus sapien, vitae placerat quam. Curabitur nec tempor
-            orci, ut lacinia lacus. Nulla facilisi. Donec eget odio
-            fermentum, fermentum turpis vel, viverra tortor. Vestibulum
-            ante ipsum primis in faucibus orci luctus et ultrices posuere
-            cubilia Curae; Pellentesque habitant morbi tristique senectus   
-            et netus et malesuada fames ac turpis egestas. Nam eu purus
-            vitae ligula eleifend placerat. Mauris sagittis consectetur
-            fringilla.
-        </p>
-    </article>
-
-
-    <article href="header.php">
-<div class="card">
-    <div class="imgs">
-        <img src="images/Hockey.jpg" id="imgB" alt="Anne Kuik" class="image-container">
-    </div>
-        <h2>Headline of the News Article</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Vestibulum ac elit non ex sodales eleifend. Sed ullamcorper
-            rhoncus mauris, eu tincidunt turpis. Phasellus vitae orci
-            vel mi semper pulvinar et nec orci. Fusce eu mollis augue.
-            Aenean eu libero et lorem tristique feugiat. Nulla id
-            finibus sapien, vitae placerat quam. Curabitur nec tempor
-            orci, ut lacinia lacus. Nulla facilisi. Donec eget odio
-            fermentum, fermentum turpis vel, viverra tortor. Vestibulum
-            ante ipsum primis in faucibus orci luctus et ultrices posuere
-            cubilia Curae; Pellentesque habitant morbi tristique senectus
-            et netus et malesuada fames ac turpis egestas. Nam eu purus
-            vitae ligula eleifend placerat. Mauris sagittis consectetur
-            fringilla.
-        </p>
-    </article>
-
-
-
-    <article href="header.php">
-<div class="card">
-        <div class="imgs">
-        <img src="images/OudeVrouw.jpg" id="imgB" alt="Anne Kuik" class="image-container">
+        <!-- Card 2 -->
+        <div class="cards">
+            <div class="card-foto card-2"></div>
+            <h2>Een woningwet voor heel Nederland</h2>
         </div>
-        <h2>Headline of the News Article</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Vestibulum ac elit non ex sodales eleifend. Sed ullamcorper
-            rhoncus mauris, eu tincidunt turpis. Phasellus vitae orci
-            vel mi semper pulvinar et nec orci. Fusce eu mollis augue.
-            Aenean eu libero et lorem tristique feugiat. Nulla id
-            finibus sapien, vitae placerat quam. Curabitur nec tempor
-            orci, ut lacinia lacus. Nulla facilisi. Donec eget odio
-            fermentum, fermentum turpis vel, viverra tortor. Vestibulum
-            ante ipsum primis in faucibus orci luctus et ultrices posuere
-            cubilia Curae; Pellentesque habitant morbi tristique senectus
-            et netus et malesuada fames ac turpis egestas. Nam eu purus
-            vitae ligula eleifend placerat. Mauris sagittis consectetur
-            fringilla.
-        </p>
-    </article>
-
-    <article href="header.php">
-<div class="card">
-        <div class="imgs">
-        <img src="images/nederland1.jpg" id="imgB" alt="Anne Kuik" class="image-container">
+        <!-- Card 3 -->
+        <div class="cards">
+            <div class="card-foto card-3"></div>
+            <h2>Democratische vrijheden hebben een bovengrens</h2>
         </div>
-        <h2>Headline of the News Article</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Vestibulum ac elit non ex sodales eleifend. Sed ullamcorper
-            rhoncus mauris, eu tincidunt turpis. Phasellus vitae orci
-            vel mi semper pulvinar et nec orci. Fusce eu mollis augue.
-            Aenean eu libero et lorem tristique feugiat. Nulla id
-            finibus sapien, vitae placerat quam. Curabitur nec tempor
-            orci, ut lacinia lacus. Nulla facilisi. Donec eget odio
-            fermentum, fermentum turpis vel, viverra tortor. Vestibulum
-            ante ipsum primis in faucibus orci luctus et ultrices posuere
-            cubilia Curae; Pellentesque habitant morbi tristique senectus
-            et netus et malesuada fames ac turpis egestas. Nam eu purus
-            vitae ligula eleifend placerat. Mauris sagittis consectetur
-            fringilla.
-        </p>
-    </article>
-
-    <article href="header.php">
-<div class="card">
-        <div class="imgs">
-        <img src="images/OudeVrouw.jpg" id="imgB" alt="Anne Kuik" class="image-container">
+        <!-- Card 4 -->
+        <div class="cards">
+            <div class="card-foto card-4"></div>
+            <h2>Debat over klappen van het landbouwakkoord</h2>
         </div>
-        <h2>Headline of the News Article</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Vestibulum ac elit non ex sodales eleifend. Sed ullamcorper
-            rhoncus mauris, eu tincidunt turpis. Phasellus vitae orci
-            vel mi semper pulvinar et nec orci. Fusce eu mollis augue.
-            Aenean eu libero et lorem tristique feugiat. Nulla id
-            finibus sapien, vitae placerat quam. Curabitur nec tempor
-            orci, ut lacinia lacus. Nulla facilisi. Donec eget odio
-            fermentum, fermentum turpis vel, viverra tortor. Vestibulum
-            ante ipsum primis in faucibus orci luctus et ultrices posuere
-            cubilia Curae; Pellentesque habitant morbi tristique senectus
-            et netus et malesuada fames ac turpis egestas. Nam eu purus
-            vitae ligula eleifend placerat. Mauris sagittis consectetur
-            fringilla.
-        </p>
-    </article>
-
-    <article href="header.php">
-<div class="card">
-        <div class="imgs">
-        <img src="images/pieter.jpg" id="imgB" alt="Anne Kuik" class="image-container">
+        <!-- Card 5 -->
+        <div class="cards">
+            <div class="card-foto card-5"></div>
+            <h2>Investeer in regionale brede welvaart</h2>
         </div>
-        <h2>Headline of the News Article</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Vestibulum ac elit non ex sodales eleifend. Sed ullamcorper
-            rhoncus mauris, eu tincidunt turpis. Phasellus vitae orci
-            vel mi semper pulvinar et nec orci. Fusce eu mollis augue.
-            Aenean eu libero et lorem tristique feugiat. Nulla id
-            finibus sapien, vitae placerat quam. Curabitur nec tempor
-            orci, ut lacinia lacus. Nulla facilisi. Donec eget odio
-            fermentum, fermentum turpis vel, viverra tortor. Vestibulum
-            ante ipsum primis in faucibus orci luctus et ultrices posuere
-            cubilia Curae; Pellentesque habitant morbi tristique senectus
-            et netus et malesuada fames ac turpis egestas. Nam eu purus
-            vitae ligula eleifend placerat. Mauris sagittis consectetur
-            fringilla.
-        </p>
-    </article>
-
-
-
-</div>
-</div>
-
+        <!-- Card 6 -->
+        <div class="cards">
+            <div class="card-foto card-6"></div>
+            <h2>Behoud de acute zorg voor heel Nederland</h2>
+        </div>
+    </section>
 <footer>
 
     <h3>&copy; 2023 Your Website. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="contact.php#">Terms of Service</a></h3>
