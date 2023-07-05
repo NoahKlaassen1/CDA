@@ -1,81 +1,126 @@
+/* Add the following styles to your existing CSS code */
 
-.grid-container {
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  grid-column: 1 / 4;
+}
+
+.container {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: repeat(3, 1fr) repeat(2, 0);
+  grid-template-rows: 2fr 0.5fr repeat(2, 1fr) 0.75fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
 
-
 .green-heading {
-    color: #05da10;
-    font-size: 50px;
-    margin-left: 137%;
-    height: 5%;
-    width: 5%;
+  color: #05da10;
+  font-size: 50px;
+  text-align: center;
+  grid-column: 1 / -1;
 }
 
 .form-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 50vh;
-    margin-top: 200px;
-  }
-  
-  .alledonaties {
-    width: 100%;
-    color: #05da10;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 23%;
-  }
-  
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -150px;
+}
 
 .input-field {
-    margin-bottom: 30px;
-    width: 550px;
-    height: 50px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+  height: 50px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .submit-button {
-    background-color: #05da10;
-    color: #ffffff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  background-color: #05da10;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  max-width: 400px;
+}
+
+.alledonaties {
+  grid-column: 1 / -1;
+  color: #05da10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 20px;
 }
 
 footer {
-    width: 100%;
-    background-color: #05da10;
-    color: #fff;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    box-sizing: border-box;
-    display: flex;
+  width: 100vw;
+  background-color: #05da10;
+  color: #fff;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  border: solid 2px greenyellow;
+  padding: 20px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.wtext {
+  text-align: center;
+}
+
+@media screen and (max-width: 850px) and (orientation: Landscape) {
+  /* Media Query for Tablets */
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2fr 0.5fr repeat(2, 1fr) 0.75fr;
+  }
+
+  .form-container {
+    margin-top: -100px;
+  }
+}
+
+@media screen and (max-width: 650px) and (orientation: Landscape){
+
+  /* Media Query for Phones */
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .form-container {
+    margin-top: 20px;
+  }
+
+  footer {
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    height: 125px;
-    border: solid 2px greenyellow;
   }
-  
+
   footer a {
-    color: #fff;
-    text-decoration: none;
+    margin-top: 10px;
   }
-  
-  footer a:hover {
-    text-decoration: underline;
-  }
-  
+}
+

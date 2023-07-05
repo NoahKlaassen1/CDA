@@ -7,24 +7,29 @@
     <link rel="stylesheet" type="text/css" href="doneer.css">
     <title>Doneer</title>
 </head>
+
 <body>
+<div class="container">
     <header>
-    <?php include 'header.php'; ?>
+        <?php include 'header.php'; ?>
     </header>
+    
+        <h2 class="green-heading">Doneer</h2>
+        
+        <form id="myForm" action="doneer.php" method="POST" class="form-container">
+            <input type="text" name="naam" placeholder="Naam" required class="input-field">
+            <input type="email" name="email" placeholder="E-mail" required class="input-field">
+            <input type="number" name="nummer" placeholder="Nummer" required class="input-field">   
+            <input type="number" name="bedrag" placeholder="Bedrag" required class="input-field">
+            <button type="submit" class="submit-button">Verzenden</button>
+        </form> 
+        
+        <div class="alledonaties">
+          <h2>Alle donaties</h2>
+        </div>
 
-    <div class="grid-container">
-
-<h2 class="green-heading">Doneer</h2>
-
-<form id="myForm" action="doneer.php" method="POST" class="form-container">
-<input type="text" name="naam" placeholder="Naam" required class="input-field">
-<input type="email" name="email" placeholder="E-mail" required class="input-field">
-<input type="number" name="nummer" placeholder="Nummer" required class="input-field">   
-<input type="number" name="bedrag" placeholder="Bedrag" required class="input-field">
-<button type="submit" class="submit-button">Verzenden</button>
-</form> 
-
-    <?php 
+  <div class="form-container">
+  <?php 
     include 'connection.php';
 
     function doneer()
@@ -63,16 +68,19 @@
         echo "0 Resultaten";
     }
     ?>
-
-<div class="alledonaties">
-  <h2>Alle donaties</h2>  
+  </div>
 </div>
 
-</div>
+
+
+   
+
+
 
 <footer>
 <h3>&copy; 2023 Your Website. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="contact.php#">Terms of Service</a></h3>
-</footer>
+</footer> 
 
+</div>
 </body>
 </html>
