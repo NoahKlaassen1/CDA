@@ -55,7 +55,7 @@
         doneer();
     }
 
-    $sql = "SELECT * FROM `doneer` ORDER BY bedrag DESC LIMIT 5;";
+    $sql = "SELECT * FROM `doneer` ORDER BY bedrag DESC ;";
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
