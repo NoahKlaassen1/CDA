@@ -1,0 +1,55 @@
+/* Add the following styles to your existing CSS code */
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #header {
+    width: 100%;
+    background-color: #f2f2f2;
+  }
+  
+  #logo {
+    padding: 10px;
+  }
+  
+  #logo a img {
+    width: 100px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+  }
+  
+  nav ul li a:hover {
+    color: #05da10;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .full-width-image {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+  
