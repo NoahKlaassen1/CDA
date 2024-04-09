@@ -19,7 +19,6 @@
   <li><a href="standpunten.php">Standpunten</a></li>
   <li><a href="contact.php">Contact</a></li>
   <li><a href="lidworden.php">Word Lid</a></li>
-  <li><a href="doneer.php">Doneer</a></li>
 </ul>
 
     </nav>
